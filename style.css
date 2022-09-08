@@ -1,0 +1,41 @@
+:root {
+    --bs-blue: #1b3a69;
+}
+
+.slider-section {
+    height: 400px;
+}
+
+.carousel img {
+    height: 400px;
+}
+
+.slider-item {
+    color: white;
+    height: 600px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-item-1 {
+    background-image: url('images/cover/cover-1.png');
+}
+
+.slider-item-2 {
+    background-image: url('images/cover/cover-2.jpg');
+}
+
+.slider-item-3 {
+    background-image: url('images/cover/cover-3.jpg');
+}
+
+@media (max-width: 390px) {
+    .course-card img {
+        width: 100% !important;
+    }
+
+    .slider-item {
+        height: 300px;
+    }
+}
